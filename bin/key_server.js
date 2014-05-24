@@ -29,7 +29,7 @@ function main() {
       )
     }
   )
-  memoryMonitor.start()
+  //memoryMonitor.start()
 
   var error = require('../error')
   var Token = require('../tokens')(log, config.tokenLifetimes)
